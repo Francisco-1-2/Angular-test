@@ -1,0 +1,14 @@
+<h1>DBZ Personajes</h1>
+<hr>
+
+<div class="row">
+  <div class = "col">
+    <app-dbz-list [linkCharacter]="characters"></app-dbz-list>
+</div>
+
+<div class="col">
+    <app-dbz-addcharacter (onNewCharacter)="onNewCharacter($event)"></app-dbz-addcharacter>
+  </div>
+
+
+</div>
